@@ -1,0 +1,42 @@
+.review{
+  background-color: darkolivegreen;
+  position: relative;
+  bottom: 15px;
+  padding:10px;
+}
+.review>h1{
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.review>h3{
+margin-top: 15px;
+}
+.review-container-1>img{
+ width: 50px;
+ background-color: none;
+}
+.review-container-1{
+  border: 1px solid black;
+  width:300px;
+  padding:10px;
+  margin:10px;
+  background-color: aqua;
+}
+.review-container-1>h4,p{
+  padding: 5px;
+}
+.review-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+@media screen and (max-width:500px)
+{
+  .review-container{
+   display: flex;
+   flex-wrap: wrap;
+   padding:10px;
+  
+  }
+}

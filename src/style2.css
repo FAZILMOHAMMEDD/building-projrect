@@ -1,0 +1,59 @@
+.images-1>img{
+  width:100% ;
+
+}
+.images{
+  position: relative;
+
+}
+.images-2{
+  position: absolute;
+  bottom: 90px;
+  left: 100px;
+}
+.images-3{
+  position: absolute;
+  bottom: 90px;
+  left: 300px;
+}
+.images-2>button{
+  padding: 10px;
+  color: white;
+  background-color:rgb(8, 8, 87);
+  color:white;
+}
+
+.images-3>button{
+  padding: 10px;
+  color: white;
+  background-color:rgb(8, 8, 87);
+  color:white;
+} 
+.images-2>button:hover{
+  background-color: blueviolet;
+  color: black;
+  
+}
+.images-3>button:hover{
+  background-color: blueviolet;
+  color: black;
+  
+}
+@media screen and (max-width:700px){
+  .images{
+    position: relative;
+  }
+  .images-2{
+   position:absolute;
+   bottom:10px;
+   left:20px;
+  }
+  .images-2>button{
+    padding:4px;
+  }
+  .images-3{
+    display: none;
+  }
+}
+
+ 

@@ -1,0 +1,69 @@
+.services-1>h1{
+  display: flex;
+  justify-content: center;
+ color:goldenrod;
+ margin: 5px;
+}
+.services{
+background-color: rgb(133, 7, 7);
+ position: relative;
+ bottom:10px;
+ padding: 15px;
+}
+.services-2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.services-card{
+  margin: 5px;
+border: 2px solid black;
+border: none;
+border-radius:3%;
+width:24%;
+height:10%;
+padding:10px;
+text-align: center;
+background-color: rgb(19, 19, 99);
+color: white;
+}
+.services-card>p{
+  margin-top:1px;
+}
+.services-card>img{
+width:90%;
+height:38%;
+
+ 
+}
+.services-card>button{
+  padding:10px;
+  background-color:black;
+  margin-top:21px;
+  border: none;
+  color: white;
+}
+.services-card>h3{
+  color:red;
+}
+.services-card:hover{
+  background-color:rgb(175, 128, 8);
+  color: black;
+}
+@media screen and (max-width:500px)
+{
+  .services-card>img{
+   width:100%;
+   height:35%;
+  }
+  .services-card{
+    flex-basis:25%;
+    width: 100%;
+    padding:20px;
+    height: 40%;
+  }
+  .services-card>button{
+    display: none;
+  }
+}

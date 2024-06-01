@@ -1,0 +1,41 @@
+.contact>h1{
+  display: flex;
+  justify-content: center;
+  color: chocolate;
+ margin: 5px;
+}
+.contact-1>img{
+  width: 60px;
+}
+.contact{
+  background-color: rgb(40, 36, 36);
+  position: relative;
+  bottom:20px;
+  padding: 10px;
+}
+.contact-1{
+  border: 2px solid black;
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(160, 160, 9);
+  color: black;
+}
+.contact-1>img,h5{
+  padding:10px;
+}
+.contact-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+@media screen and (max-width:500px)
+{
+  .contact-container{
+    display: flex;
+   justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+}

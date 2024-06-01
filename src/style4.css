@@ -1,0 +1,44 @@
+.steps{
+  background-color: palevioletred;
+  color:black;
+  position: relative;
+  bottom: 15px;
+  padding:8px;
+}
+.steps-1>h1{
+  display: flex;
+  justify-content: center;
+ color:rgb(252, 184, 11);
+ margin: 5px;
+}
+.step-images{
+  display: flex;
+  justify-content: space-around;
+}
+.step-images-1{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+.step-images-1>h4{
+  margin-top: 25px;
+  text-align: center;
+  color:black;
+}
+@media screen and (max-width:500px)
+{
+  .step-images{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.step-images-1{
+  border: 1px solid rgb(129, 5, 5);
+  text-align: center;
+  padding: 10px;
+flex-basis:10%;
+  
+} 
+}
