@@ -39,20 +39,39 @@
   color: black;
   
 }
+.images-container{
+  position: relative;
+}
 @media screen and (max-width:700px){
   .images{
     position: relative;
   }
   .images-2{
    position:absolute;
-   bottom:10px;
+   bottom:15px;
    left:20px;
   }
   .images-2>button{
-    padding:4px;
+    padding:2px;
+    border: none;
+    color: blueviolet;
   }
   .images-3{
     display: none;
+  }
+}
+@media screen and (min-width:800px){
+  .images-container{
+    position:relative;
+   top: 30px;
+   right: 20px;
+  }
+}
+@media screen and (min-width:1280px){
+  .images-container{
+    position:relative;
+   top: 10px;
+   right: 13px;
   }
 }
 

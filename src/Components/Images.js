@@ -5,11 +5,13 @@ function Images()
     <div class="images">
       <div class="images-1">
      <img src={three} alt="home"></img>
+     <div class="images-container">
      <div class="images-2">
     <button>Book Free Consultation</button>
    </div>
    <div class="images-3">
     <button>Download Portfolio</button>
+   </div>
    </div>
    </div>
   

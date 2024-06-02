@@ -24,11 +24,17 @@ function Service()
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Stucco Service</button>
         </div>
-        <div class="services-card">
+        <div class="services-card" id="kol">
         <img src={six} alt="Concetre"></img>
           <h3>Concrete Cire</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Concrete Service</button>
+        </div>
+        <div class="services-card">
+        <img src={nine} alt="paint"></img>
+          <h3>Electric</h3>
+          <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
+        <button>Electric Service</button>
         </div>
         <div class="services-card">
         <img src={seven} alt="paint"></img>
@@ -41,6 +47,12 @@ function Service()
           <h3>Interior Design</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Interior Service</button>
+        </div>
+        <div class="services-card">
+        <img src={six} alt="Concetre"></img>
+          <h3>Concrete Cire</h3>
+          <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
+        <button>Concrete Service</button>
         </div>
         <div class="services-card">
         <img src={nine} alt="paint"></img>

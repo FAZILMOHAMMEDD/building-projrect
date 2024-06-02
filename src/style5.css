@@ -1,5 +1,5 @@
 .review{
-  background-color: darkolivegreen;
+ 
   position: relative;
   bottom: 15px;
   padding:10px;
@@ -7,7 +7,8 @@
 .review>h1{
   display: flex;
   justify-content: center;
-  color: black;
+  color:rgb(25, 25, 159);
+  font-size: 20px;
 }
 .review>h3{
 margin-top: 15px;

@@ -7,12 +7,12 @@ function Navbar()
       <h1><img src={one} alt="Home"></img>Sky-Towers</h1>
     </div>
     <div class="navbar-2">
-    <p>HOME</p> <h3>.</h3>
-    <p>SERVICES</p><h3>.</h3>
-    <p>STEPS</p><h3>.</h3>
-    <p>REVIEWS</p><h3>.</h3>
-    <p>CONTACT</p><h3>.</h3>
-    <p>ABOUT US</p><h3>.</h3>
+    <p>HOME</p> 
+    <p>SERVICES</p>
+    <p>STEPS</p>
+    <p>REVIEWS</p>
+    <p>CONTACT</p>
+    <p>ABOUT US</p>
     </div>
     <div class="navbar-3">
     <button>Call Us Today</button>
