@@ -48,13 +48,15 @@
   }
   .images-2{
    position:absolute;
-   bottom:15px;
-   left:20px;
+   bottom:18px;
+   left:30px;
   }
   .images-2>button{
-    padding:2px;
+    padding:5px;
     border: none;
-    color: blueviolet;
+    background-color:rgb(5, 5, 116);
+  color:white;
+
   }
   .images-3{
     display: none;
