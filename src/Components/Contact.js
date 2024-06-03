@@ -4,7 +4,7 @@ import mail from "../assests/images/mail.png"
 function Contact()
 {
   return(
-    <div class="contact">
+    <div class="contact" id="contact">
        <h1>CONTACT</h1>
        <div class="contact-container">
         <div class="contact-1">

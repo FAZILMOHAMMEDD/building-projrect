@@ -13,18 +13,21 @@ import "./style4.css"
 import "./style5.css"
 import "./style6.css"
 import "./style7.css"
+
+
 function App()
 {
   return(
-    <>
-<Navbar/>
-<Images/>
-<Service/>
-<Steps/>
-<Review/>
-<Contact/>
-<About/>
-    </>
+    <div id='home'>
+  <Navbar></Navbar>
+  <Images/>
+  <Service/>
+  <Steps/>
+  <Review/>
+  <Contact/>
+  <About/>
+    </div>
+    
   )
 }
 export default (App)

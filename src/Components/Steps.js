@@ -5,7 +5,7 @@ import bus from "../assests/images/bus.png"
 function Steps()
 {
   return(
-    <div class="steps">
+    <div class="steps" id="step">
       <div class="steps-1">
       <h1>STEPS</h1>
       </div>

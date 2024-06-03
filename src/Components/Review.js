@@ -6,7 +6,7 @@ import mans from "../assests/images/man-3.jpg"
 function Review()
 {
   return(
-    <div class="review">
+    <div class="review" id="review" >
       <h1>CUSTOMER REVIEW</h1>
       <h3>WHY WE PEOPLE CHOOSE US</h3>
       <div class="review-container">

@@ -2,7 +2,7 @@ import one from "../assests/images/one.png"
 function About()
 {
   return(
-    <div class="about">
+    <div class="about"id="about" >
       <div class="about-1">
       <h1>ABOUT US</h1>
       </div>

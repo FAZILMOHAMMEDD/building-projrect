@@ -7,7 +7,7 @@ import nine from "../assests/images/nine.jpg"
 function Service()
 {
   return(
-    <div class="services">
+    <div class="services" id="servies">
       <div class="services-1">
         <h1>SERVICES</h1>
       </div>
@@ -24,13 +24,13 @@ function Service()
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Stucco Service</button>
         </div>
-        <div class="services-card" id="kol">
+        <div class="services-card" id="lol">
         <img src={six} alt="Concetre"></img>
           <h3>Concrete Cire</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Concrete Service</button>
         </div>
-        <div class="services-card">
+        <div class="services-card" id="kol">
         <img src={nine} alt="paint"></img>
           <h3>Electric</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
@@ -48,13 +48,13 @@ function Service()
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Interior Service</button>
         </div>
-        <div class="services-card">
+        <div class="services-card" id="lol">
         <img src={six} alt="Concetre"></img>
           <h3>Concrete Cire</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Concrete Service</button>
         </div>
-        <div class="services-card">
+        <div class="services-card" id="kol">
         <img src={nine} alt="paint"></img>
           <h3>Electric</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>

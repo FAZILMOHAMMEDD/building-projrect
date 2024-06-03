@@ -1,26 +1,34 @@
-import one from "../assests/images/one.png"
+
+import { useState } from 'react'
+import one from '../assests/images/one.png'
+import {GiHamburgerMenu} from 'react-icons/gi'
+
 function Navbar()
 {
+var[ismobile,setmobile]=useState(false)
+function handle()
+{
+  setmobile(!ismobile)
+}
+
   return(
-   <div class="navbar-container">
-    <div class="navbar-1">
+   <div className="navbar-container">
+    <div className="navbar-1">
       <h1><img src={one} alt="Home"></img>Sky-Towers</h1>
     </div>
-    <div class="navbar-2">
-    <p>HOME</p> 
-    <p>SERVICES</p>
-    <p>STEPS</p>
-    <p>REVIEWS</p>
-    <p>CONTACT</p>
-    <p>ABOUT US</p>
+    <div className={ismobile?"nav-links":"navbar-2"}>
+    <p><a href="#home">HOME</a></p> 
+    <p><a href="#servies">SERVICES</a></p>
+    <p><a href="#step">STEPS</a></p>
+    <p><a href="#review">REVIEWS</a></p>
+    <p><a href="#contact">CONTACT</a></p>
+    <p><a href="#about">ABOUT</a></p>
     </div>
-    <div class="navbar-3">
-    <button>Call Us Today</button>
+    <div className="navbar-3">
+    <button style={{padding:"10px",backgroundColor:"green",color:"white"}}>call us Today</button>
     </div>
-    <div class="navbar-4">
-    <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-    </svg>
+    <div onClick={handle} className='hulk' >
+{ismobile?<p>x</p>:<GiHamburgerMenu />}
     </div>
    </div>
 
