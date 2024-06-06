@@ -1,6 +1,6 @@
 import four from "../assests/images/four.jpg"
 import five from "../assests/images/five.jpeg"
-import six from "../assests/images/six.jpg"
+import six from "../assests/images/homd.jpeg"
 import seven from "../assests/images/seven.jpg"
 import eight from "../assests/images/eight.jpg"
 import nine from "../assests/images/nine.jpg"
@@ -24,13 +24,13 @@ function Service()
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Stucco Service</button>
         </div>
-        <div class="services-card" id="lol">
-        <img src={six} alt="Concetre"></img>
+        <div class="services-card" id="cool">
+        <img src={seven} alt="Concetre"></img>
           <h3>Concrete Cire</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Concrete Service</button>
         </div>
-        <div class="services-card" id="kol">
+        <div class="services-card" >
         <img src={nine} alt="paint"></img>
           <h3>Electric</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
@@ -42,19 +42,19 @@ function Service()
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Spray Service</button>
         </div>
-        <div class="services-card">
+        <div class="services-card" id="wol">
         <img src={eight} alt="paint"></img>
           <h3>Interior Design</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Interior Service</button>
         </div>
-        <div class="services-card" id="lol">
-        <img src={six} alt="Concetre"></img>
+        <div class="services-card" id="lol" >
+        <img src={six} alt="Concetre" ></img>
           <h3>Concrete Cire</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>
         <button>Concrete Service</button>
         </div>
-        <div class="services-card" id="kol">
+        <div class="services-card" >
         <img src={nine} alt="paint"></img>
           <h3>Electric</h3>
           <p>For High-Quality Painting Ready For You can Count On Us For Different Types Of Pinting</p>

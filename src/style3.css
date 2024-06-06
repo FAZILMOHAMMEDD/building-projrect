@@ -46,8 +46,12 @@ padding: 10px;
   background-color:rgb(175, 128, 8);
   color: black;
 }
+
 @media screen and (max-width:500px)
 {
+  #wol>img{
+    height: 40px;
+  }
   .services-2{
     display: flex;
     justify-content: space-between;
@@ -73,9 +77,26 @@ padding: 10px;
    height:112px;
     }
   }
-  @media screen and (min-width:800px)
+  @media screen and (min-width:1000px)
 {
   #lol>img{
-    height: 128px;
+    height: 118px;
+  }
+  .contact-container{
+    margin: 5px;
+  }
+  #cool>img{
+    height: 120px;
   }
 }
+@media screen and (min-width:1200px)
+{
+  #lol>img{
+    height: 140px;
+  }
+  #cool>img{
+    height: 160px;
+  }
+}
+
+

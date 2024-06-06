@@ -45,6 +45,6 @@ flex-basis:10%;
 @media screen and (min-width:800px)
 {
   .step-images-1>h4{
-    font-size: 15px;
+    font-size: 10px;
   }
 }
